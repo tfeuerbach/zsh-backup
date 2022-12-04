@@ -39,8 +39,6 @@ source $ZSH/oh-my-zsh.sh
 # My Commands
 git config --global credential.helper cache
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
 # My Aliases
 if [ -f ~/.zsh_aliases ]; then
 	. ~/.zsh_aliases
