@@ -37,6 +37,7 @@ plugins=(git
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+git config --global credential.helper cache
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # My Aliases
