@@ -1,0 +1,28 @@
+# ~/.zshrc
+
+# python
+alias python=python3
+
+# git
+alias gs="git status"
+
+# map exa commands to normal ls commands
+alias ll="exa -l -g --icons"
+alias ls="exa -F --icons"
+alias lt="exa --tree --icons -a -I '.git|__pycache__|.mypy_cache|.ipynb_checkpoints'"
+alias la="exa -ha -F --icons"
+
+# show file previews for fzf using bat
+alias fp="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
+
+# batcat
+alias bat="batcat"
+
+# python environments
+alias /camp="deactivate"
+alias dalaran="source ~/Development/.envs/dalaran/bin/activate"
+alias advent="source ~/Development/.envs/advent_of_code/bin/activate"
+
+# miscellaneous
+alias aoc_pull="/home/tfeuerbach/Development/general-scripts/advent_of_code_download.sh"
+alias gd="gatsby develop -H 0.0.0.0"
